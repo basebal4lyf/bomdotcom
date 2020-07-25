@@ -1,0 +1,23 @@
+Code Challenge: bomdotcom
+Candidate: Jacob Gray <jlgray024@gmail.com>
+
+file name: bomdotcom.py
+Python version: 3.7.3
+
+To run the file:
+    1) Unpack file into a Python 3.7.3 compatible environment & directory
+    2) From command line, navigate to file's directory and run 'python bomdotcom.py <test_file>'
+        If <test_file> is not located in the same directory as the file, then
+        it should be fully qualified with its location.
+        A sample <test_file> has been included with this submission (test_BOM.txt).
+
+Assumptions Made by Code:
+    1) Manufacturers, MPNs, and Reference Designators from input lines formatted "MPN:Manufacturer:ReferenceDesignators"
+        do not contain ':' anywhere in their names.
+    2) Manufacturers from input lines formatted "Manufacturer -- MPN:ReferenceDesignators" do not contain ' -- ' (spaces included)
+        nor ':' anywhere in their names. Associated MPNs and Reference Designators do not contain ':' anywhere in their names, but
+        may contain ' -- '.
+    3) Manufacturers, MPNs, and Reference Designators from input lines formatted "ReferenceDesignators;MPN;Manufacturer"
+        do not contain ';' anywhere in their names.
+
+Please contact Candidate if clarification is needed.
